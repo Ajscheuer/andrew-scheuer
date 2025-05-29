@@ -1,19 +1,54 @@
 # Site Settings
 title: "Andrew Scheuer"
-tagline: "Software Engineer | Fullstack Development, AWS Solutions Architect"
+title_separator: "|"
+subtitle: "Software Engineer | Fullstack Development, AWS Solutions Architect"
+name: "Andrew Scheuer"
 description: "Native English Speaking Software Engineer with experience in remote teams developing with React, Node, and .NET"
 url: "https://ajscheuer.github.io"
 baseurl: ""
-github_username: Ajscheuer
-linkedin_username: andrewscheuer
-email: aj.scheuer2@gmail.com
+repository: "Ajscheuer/andrew-scheuer"
+teaser: # path of fallback teaser image
+logo: # path of logo image to display in the masthead
+masthead_title: # overrides the website title displayed in the masthead
+
+# Site Author
+author:
+  name: "Andrew Scheuer"
+  avatar: # path of avatar image
+  bio: "Software Engineer specializing in fullstack development with React, Node.js, and .NET. AWS Solutions Architect working remotely from Córdoba, Argentina."
+  location: "Córdoba, Argentina"
+  email: "aj.scheuer2@gmail.com"
+  links:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/in/andrewscheuer"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/Ajscheuer"
+
+# Site Footer
+footer:
+  links:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/in/andrewscheuer"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/Ajscheuer"
 
 # Build settings
-theme: minima
-plugins:
-  - jekyll-feed
-  - jekyll-sitemap
-  - jekyll-seo-tag
+markdown: kramdown
+remote_theme: mmistakes/minimal-mistakes
+minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+
+# Outputting
+permalink: /:categories/:title/
+paginate: 5
+paginate_path: /page:num/
+timezone: America/Argentina/Cordoba
+
+include:
+  - _pages
 
 # Exclude from processing
 exclude:
@@ -28,21 +63,45 @@ exclude:
   - vendor/gems/
   - vendor/ruby/
 
-# Collections for better organization
-collections:
-  posts:
-    output: true
-    permalink: /blog/:year/:month/:day/:title/
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-include-cache
 
-# Navigation (if theme supports it)
-header_pages:
-  - about.md
-  - cv.md
-  - blog.md
+# Archives
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
 
-# Social links (if theme supports it)
-social:
-  - platform: linkedin
-    user_url: "https://linkedin.com/in/andrewscheuer"
-  - platform: github
-    user_url: "https://github.com/Ajscheuer" 
+# HTML Compression
+compress_html:
+  clippings: all
+  ignore:
+    envs: development
+
+# Defaults
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: # true
+      share: true
+      related: true
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true 

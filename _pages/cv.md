@@ -1,7 +1,11 @@
 ---
-layout: page
+layout: single
 title: Curriculum Vitae
 permalink: /cv/
+author_profile: true
+toc: true
+toc_label: "CV Contents"
+toc_icon: "file-alt"
 ---
 
 # Andrew Scheuer - CV
