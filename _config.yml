@@ -14,7 +14,7 @@ masthead_title: # overrides the website title displayed in the masthead
 # Site Author
 author:
   name: "Andrew Scheuer"
-  avatar: # path of avatar image
+  avatar: "/assets/images/avatar.png"
   bio: "Software Engineer specializing in fullstack development with React, Node.js, and .NET. AWS Solutions Architect working remotely from Córdoba, Argentina."
   location: "Córdoba, Argentina"
   email: "aj.scheuer2@gmail.com"
@@ -39,7 +39,7 @@ footer:
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
-minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin: "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Outputting
 permalink: /:categories/:title/
