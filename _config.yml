@@ -1,0 +1,48 @@
+# Site Settings
+title: "Andrew Scheuer"
+tagline: "Software Engineer | Fullstack Development, AWS Solutions Architect"
+description: "Native English Speaking Software Engineer with experience in remote teams developing with React, Node, and .NET"
+url: "https://ajscheuer.github.io"
+baseurl: ""
+github_username: Ajscheuer
+linkedin_username: andrewscheuer
+email: aj.scheuer2@gmail.com
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Exclude from processing
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+# Collections for better organization
+collections:
+  posts:
+    output: true
+    permalink: /blog/:year/:month/:day/:title/
+
+# Navigation (if theme supports it)
+header_pages:
+  - about.md
+  - cv.md
+  - blog.md
+
+# Social links (if theme supports it)
+social:
+  - platform: linkedin
+    user_url: "https://linkedin.com/in/andrewscheuer"
+  - platform: github
+    user_url: "https://github.com/Ajscheuer" 

@@ -1,0 +1,344 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+# Cursor Setup Instructions for Andrew Scheuer's Blog
+
+You are helping set up a professional GitHub Pages blog for Andrew Scheuer. The repository is already configured at: https://github.com/Ajscheuer/andrew-scheuer.git
+
+## Project Context
+Andrew is a Software Engineer specializing in fullstack development with React, Node.js, and .NET. He works remotely from Córdoba, Argentina, and has experience with AWS cloud solutions and AI integration using AWS Bedrock. He's currently at Allata and previously served as Head of Technology at Adam HRS building healthcare EMR systems.
+
+## Required File Structure and Content
+
+Create these files exactly as specified:
+
+### 1. `_config.yml` (Main configuration)
+```yaml
+# Site Settings
+title: "Andrew Scheuer"
+tagline: "Software Engineer | Fullstack Development, AWS Solutions Architect"
+description: "Native English Speaking Software Engineer with experience in remote teams developing with React, Node, and .NET"
+url: "https://ajscheuer.github.io"
+baseurl: ""
+github_username: Ajscheuer
+linkedin_username: andrewscheuer
+email: aj.scheuer2@gmail.com
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Exclude from processing
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+# Collections for better organization
+collections:
+  posts:
+    output: true
+    permalink: /blog/:year/:month/:day/:title/
+
+# Navigation (if theme supports it)
+header_pages:
+  - about.md
+  - cv.md
+  - blog.md
+
+# Social links (if theme supports it)
+social:
+  - platform: linkedin
+    user_url: "https://linkedin.com/in/andrewscheuer"
+  - platform: github
+    user_url: "https://github.com/Ajscheuer"
+```
+
+### 2. `Gemfile`
+```ruby
+source "https://rubygems.org"
+
+gem "github-pages", group: :jekyll_plugins
+gem "jekyll-feed", "~> 0.12"
+gem "jekyll-sitemap"
+gem "jekyll-seo-tag"
+
+# Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
+gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+# Performance-booster for watching directories on Windows
+gem "wdm", "~> 0.1.1", :platforms => [:mingw, :mswin, :x64_mingw]
+```
+
+### 3. `index.md` (Homepage)
+```markdown
+---
+layout: home
+title: "Welcome"
+---
+
+# Hello, I'm Andrew Scheuer
+
+I'm a Software Engineer specializing in fullstack development with React, Node.js, and .NET. Currently working as an Associate Software Engineer at Allata, I have experience building cloud-based solutions and leading technology initiatives in the healthcare sector.
+
+Based in Córdoba, Argentina, I work with remote teams developing scalable applications deployed to AWS and Azure. I'm passionate about integrating AI capabilities into practical business solutions and have hands-on experience with AWS Bedrock for intelligent automation.
+
+## Recent Posts
+<!-- Jekyll will automatically list your recent posts here -->
+
+## Quick Links
+- [About Me](/about/) - Learn about my background and experience
+- [My CV](/cv/) - Professional experience and credentials  
+- [Blog Posts](/blog/) - Thoughts on development and technology
+- [LinkedIn](https://linkedin.com/in/andrewscheuer) - Connect with me professionally
+
+## Current Focus
+- Fullstack cloud solutions with React, Node.js, and .NET
+- AWS Solutions Architecture
+- Healthcare technology and EMR systems
+- AI integration with AWS Bedrock
+```
+
+### 4. `about.md`
+```markdown
+---
+layout: page
+title: About Me
+permalink: /about/
+---
+
+# About Andrew Scheuer
+
+## Professional Background
+I'm a Native English Speaking Software Engineer with extensive experience working in remote teams developing with React, Node, and .NET. Currently serving as an Associate Software Engineer at Allata, I focus on building fullstack cloud-based solutions for both short and long-term projects.
+
+Previously, I founded and served as Head of Technology at Adam HRS, where I established the company from the ground up, handling all aspects of the technology stack, business processes, and operational infrastructure. I designed a secure and scalable EMR platform for healthcare providers and integrated advanced AI capabilities using AWS Bedrock for intelligent recommendations and workflow automation.
+
+## Technical Expertise
+- **Frontend**: React, JavaScript, TypeScript
+- **Backend**: .NET, Node.js, C#
+- **Cloud Platforms**: AWS (Solutions Architect Associate), Azure
+- **Databases**: SQL Server, SSIS, SSRS reporting
+- **AI/ML**: AWS Bedrock integration
+- **Languages**: English (Native), Spanish (Native), Italian & German (Limited Working)
+
+## Education & Certifications
+- **MA in Spanish Language, Literature and Culture** - Syracuse University (2015-2017)
+- **Full-Stack Web Development Certificate** - Acámica (2019-2020)
+- **AWS Solutions Architect - Associate**
+- **AWS Partner: Accreditation (Technical)**
+- **2017-2018 Fulbright U.S. Student Finalist**
+
+## Background
+My journey combines a strong academic foundation in languages and literature with practical software engineering experience. I've worked across various domains including healthcare technology, business development, translation services, and education. This diverse background gives me a unique perspective on building user-centered solutions and working with international teams.
+
+## Contact
+- **Email**: aj.scheuer2@gmail.com
+- **LinkedIn**: [linkedin.com/in/andrewscheuer](https://linkedin.com/in/andrewscheuer)
+- **Location**: Córdoba, Argentina
+- **Phone**: 3513191994
+```
+
+### 5. `cv.md`
+```markdown
+---
+layout: page
+title: Curriculum Vitae
+permalink: /cv/
+---
+
+# Andrew Scheuer - CV
+**Software Engineer | Fullstack Development, AWS Solutions Architect**  
+Córdoba, Argentina | aj.scheuer2@gmail.com | [LinkedIn](https://linkedin.com/in/andrewscheuer)
+
+## Professional Experience
+
+### Allata
+**Associate Software Engineer** | March 2025 - Present
+- Developing fullstack cloud-based solutions using React, Node, and .NET technologies for short and long-term projects
+
+### Adam HRS
+**Head of Technology** | September 2024 - March 2025
+- Established Adam HRS from the ground up, handling all aspects of the technology stack, business processes, and operational infrastructure
+- Defined and executed the technical strategy independently, designing a secure and scalable EMR platform for healthcare providers
+- Integrated advanced AI capabilities using AWS Bedrock for intelligent recommendations and workflow automation
+
+### Allata
+**Associate Software Engineer** | June 2023 - September 2024
+- Built cloud-based solutions in dynamic remote teams for short-term and long-term projects
+- Focused on fullstack solutions deployed to the cloud, working primarily with React, Node and .NET
+- Worked with SQL Server databases and SSIS and SSRS reporting according to client needs
+
+### 3XM Group (an Allata company)
+**Software Developer** | May 2021 - July 2023
+- Software Engineer in dynamic remote teams building cloud-based solutions
+- Specialized in fullstack solutions deployed to the cloud using React, Node and .NET
+- Experience with SQL Server databases and SSIS and SSRS reporting
+
+### Freelance/Contract
+**Translator (Spanish-English)** | August 2014 - May 2021
+- Professional translator from Spanish into English across various fields including Marketing, Legal, and Medical
+
+## Education
+- **MA in Spanish Language, Literature and Culture** - Syracuse University (2015-2017)
+- **Full-Stack Web Development Certificate** - Acámica (2019-2020)
+- **Bachelor of Arts (B.A.), Spanish Language and Literature** - SUNY Oswego (2009-2014)
+- **Study Abroad, Hispanic Studies** - University at Albany, SUNY (2011)
+
+## Technical Skills
+- **Languages**: React, Node.js, .NET, C#, JavaScript, TypeScript, SQL
+- **Cloud**: AWS (Solutions Architect Associate), Azure
+- **Databases**: SQL Server, SSIS, SSRS
+- **AI/ML**: AWS Bedrock
+- **Tools**: Git, Visual Studio, VS Code
+
+## Certifications & Awards
+- **AWS Solutions Architect - Associate**
+- **AWS Partner: Accreditation (Technical)**
+- **Data Science Orientation**
+- **2017-2018 Fulbright U.S. Student Finalist**
+- **Dean's List** (Multiple semesters)
+- **Outstanding MA student in Spanish**
+
+## Languages
+- **English**: Native
+- **Spanish**: Native 
+- **Italian**: Limited Working
+- **German**: Limited Working
+
+## Key Projects
+### Adam HRS EMR Platform
+- **Description**: Secure and scalable Electronic Medical Records platform for healthcare providers
+- **Technologies**: .NET, React, AWS Bedrock, Cloud Infrastructure
+- **Role**: Head of Technology - Full technical strategy and implementation
+
+---
+*[Download PDF version](link-to-your-cv-pdf)*
+```
+
+### 6. `blog.md` (Blog listing page)
+```markdown
+---
+layout: page
+title: Blog
+permalink: /blog/
+---
+
+# Blog Posts
+
+Here you'll find my thoughts on software development, architecture patterns, and technology trends.
+
+<div class="posts">
+  {% for post in site.posts %}
+    <article class="post">
+      <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+      <div class="date">
+        {{ post.date | date: "%B %d, %Y" }}
+      </div>
+      <div class="entry">
+        {{ post.excerpt }}
+      </div>
+      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+    </article>
+  {% endfor %}
+</div>
+```
+
+### 7. `_posts/2025-05-29-hello-world.md` (First blog post)
+```markdown
+---
+layout: post
+title: "Hello World - Starting My Developer Blog"
+date: 2025-05-29
+categories: [blogging, introduction]
+tags: [first-post, career, remote-work]
+---
+
+# Welcome to My Blog!
+
+After years of building software solutions across different domains - from healthcare EMR systems to cloud-based applications - I've decided to start sharing my experiences and insights through this blog.
+
+## My Journey So Far
+
+My path into software engineering has been quite unique. I started with a strong foundation in languages and literature, earning my MA from Syracuse University and even serving as a Fulbright English Teaching Assistant in Argentina. But my passion for technology eventually led me to pursue full-stack web development through Acámica, and I haven't looked back since.
+
+Currently, I'm working as an Associate Software Engineer at Allata, where I build cloud-based solutions using React, Node.js, and .NET. Recently, I had the opportunity to serve as Head of Technology at Adam HRS, where I designed and built a complete EMR platform from the ground up, integrating AI capabilities using AWS Bedrock.
+
+## What to Expect on This Blog
+
+I plan to share insights about:
+
+- **Fullstack Development**: Real-world experiences with React, Node.js, and .NET
+- **Cloud Architecture**: AWS and Azure solutions and best practices  
+- **Healthcare Technology**: Lessons learned building EMR systems and healthcare software
+- **AI Integration**: Practical applications of AWS Bedrock and other AI services
+- **Remote Work**: Tips for working effectively in distributed teams
+- **Career Transitions**: From academia to tech, and lessons learned along the way
+
+## Why I'm Writing
+
+Working remotely from Córdoba, Argentina with teams across different time zones has taught me the value of clear communication and documentation. This blog is an extension of that - a way to document my learning journey and hopefully help other developers facing similar challenges.
+
+Whether you're a fellow .NET developer, someone interested in cloud architecture, or just curious about the intersection of AI and healthcare technology, I hope you'll find something valuable here.
+
+## Let's Connect
+
+I'm always interested in connecting with other developers and learning from different perspectives. Feel free to reach out on [LinkedIn](https://linkedin.com/in/andrewscheuer) or check out my work experience in my [CV section](/cv/).
+
+Thanks for stopping by, and welcome to my corner of the web!
+
+---
+
+*Next up: I'll be writing about my experience integrating AWS Bedrock into a healthcare platform and the challenges of building AI-powered workflows.*
+```
+
+## Instructions for Cursor
+
+1. **Create the file structure** exactly as shown above
+2. **Verify GitHub Pages is enabled** in repository settings (Settings > Pages > Source: Deploy from branch > main branch)
+3. **Test locally** (optional):
+   ```bash
+   bundle install
+   bundle exec jekyll serve
+   ```
+4. **Commit and push** all files to trigger GitHub Pages build
+5. **Site will be live at**: https://ajscheuer.github.io
+
+## Adding New Posts (Future Reference)
+
+To add new blog posts:
+1. Create file in `_posts/` with format: `YYYY-MM-DD-title.md`
+2. Add front matter:
+   ```yaml
+   ---
+   layout: post
+   title: "Your Title"
+   date: YYYY-MM-DD
+   categories: [category1, category2]
+   tags: [tag1, tag2]
+   ---
+   ```
+3. Write content in Markdown
+4. Commit and push - automatically deploys!
+
+## Next Steps After Setup
+- Upload a professional photo to use as avatar
+- Consider adding a custom domain
+- Add Google Analytics if desired
+- Customize the theme colors/styling
+- Plan your first few blog posts
+
+
+The blog is designed to be professional, easy to maintain, and showcase Andrew's unique background combining academia, languages, and software engineering expertise.
