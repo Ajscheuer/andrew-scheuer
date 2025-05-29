@@ -5,7 +5,7 @@ subtitle: "Software Engineer | Fullstack Development, AWS Solutions Architect"
 name: "Andrew Scheuer"
 description: "Native English Speaking Software Engineer with experience in remote teams developing with React, Node, and .NET"
 url: "https://ajscheuer.github.io"
-baseurl: ""
+baseurl: "/andrew-scheuer"
 repository: "Ajscheuer/andrew-scheuer"
 teaser: # path of fallback teaser image
 logo: # path of logo image to display in the masthead
