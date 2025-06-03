@@ -1,16 +1,87 @@
 # Site settings
 title: Andrew Scheuer
-description: Software Engineer specializing in fullstack development with React, Node.js, and .NET. Working remotely from Córdoba, Argentina.
+tagline: 'Software Engineer | Fullstack Development, AWS Solutions Architect'
+description: 'Working remotely from Córdoba, Argentina. Building cloud solutions with React, Node.js, and .NET. Passionate about integrating AI capabilities into practical business solutions.'
+baseurl: '/andrew-scheuer'
+url: 'https://ajscheuer.github.io'
 avatar: "/assets/images/avatar.png"
-url: "https://ajscheuer.github.io"
-baseurl: "/andrew-scheuer"
+
+# About/contact
+author:
+  name: Andrew Scheuer
+  url: https://linkedin.com/in/andrewscheuer
+  email: aj.scheuer2@gmail.com
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+
+# Hyde theme settings
+version: 1.0.0
+
+# Custom vars
+github:
+  repo: https://github.com/Ajscheuer/andrew-scheuer
+
+# Social links
+social:
+  github: Ajscheuer
+  linkedin: andrewscheuer
+  email: aj.scheuer2@gmail.com
+
+# Navigation
+navigation:
+  - title: Home
+    url: /
+  - title: About
+    url: /about/
+  - title: CV
+    url: /cv/
+  - title: Blog
+    url: /blog/
+
+# Pagination
+paginate: 5
+paginate_path: '/blog/page:num/'
+
+# Collections
+collections:
+  posts:
+    output: true
+
+plugins:
+  - jekyll-paginate
+  - jekyll-gist
+  - jekyll-sitemap
+  - jekyll-feed
+
+# Exclude files
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+# Site settings
+avatar: "/assets/images/avatar.png"
 
 # Build settings
 remote_theme: daattali/beautiful-jekyll
 
 # Your information
-author: Andrew Scheuer
-email: aj.scheuer2@gmail.com
 timezone: America/Argentina/Cordoba
 
 # Social network links
@@ -111,10 +182,6 @@ exclude:
   - README.md
   - screenshot.png
   - docs/
-
-plugins:
-  - jekyll-paginate
-  - jekyll-sitemap
 
 # Site Settings
 title_separator: "|"

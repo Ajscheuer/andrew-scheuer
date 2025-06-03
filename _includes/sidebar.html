@@ -1,0 +1,70 @@
+<!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
+     styles, `#sidebar-checkbox` for behavior. -->
+<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+
+<!-- Toggleable sidebar -->
+<div class="sidebar" id="sidebar">
+  <div class="sidebar-item">
+    <!-- Avatar -->
+    {% if site.avatar %}
+    <img src="{{ site.baseurl }}{{ site.avatar }}" alt="{{ site.author.name }}" class="sidebar-avatar">
+    {% endif %}
+    
+    <h1>{{ site.title }}</h1>
+    <p class="lead">{{ site.description }}</p>
+  </div>
+
+  <nav class="sidebar-nav">
+    {% for nav in site.navigation %}
+      {% if nav.url == page.url %}
+        <a class="sidebar-nav-item active" href="{{ site.baseurl }}{{ nav.url }}">
+          {% if nav.title == 'Home' %}<i class="fas fa-home"></i>{% endif %}
+          {% if nav.title == 'About' %}<i class="fas fa-user"></i>{% endif %}
+          {% if nav.title == 'CV' %}<i class="fas fa-file-alt"></i>{% endif %}
+          {% if nav.title == 'Blog' %}<i class="fas fa-blog"></i>{% endif %}
+          {{ nav.title }}
+        </a>
+      {% else %}
+        <a class="sidebar-nav-item" href="{{ site.baseurl }}{{ nav.url }}">
+          {% if nav.title == 'Home' %}<i class="fas fa-home"></i>{% endif %}
+          {% if nav.title == 'About' %}<i class="fas fa-user"></i>{% endif %}
+          {% if nav.title == 'CV' %}<i class="fas fa-file-alt"></i>{% endif %}
+          {% if nav.title == 'Blog' %}<i class="fas fa-blog"></i>{% endif %}
+          {{ nav.title }}
+        </a>
+      {% endif %}
+    {% endfor %}
+
+    <a class="sidebar-nav-item" href="{{ site.github.repo }}">
+      <i class="fab fa-github"></i> GitHub
+    </a>
+  </nav>
+
+  <div class="sidebar-item">
+    <div class="social-icons">
+      {% if site.social.linkedin %}
+        <a href="https://linkedin.com/in/{{ site.social.linkedin }}" target="_blank" title="LinkedIn">
+          <i class="fab fa-linkedin"></i>
+        </a>
+      {% endif %}
+      {% if site.social.github %}
+        <a href="https://github.com/{{ site.social.github }}" target="_blank" title="GitHub">
+          <i class="fab fa-github"></i>
+        </a>
+      {% endif %}
+      {% if site.social.email %}
+        <a href="mailto:{{ site.social.email }}" title="Email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      {% endif %}
+    </div>
+    
+    <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
+    <p>
+      <small>
+        <i class="fas fa-map-marker-alt"></i> Córdoba, Argentina<br>
+        <i class="fas fa-code"></i> Built with Jekyll & Hyde
+      </small>
+    </p>
+  </div>
+</div> 

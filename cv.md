@@ -1,45 +1,46 @@
 ---
 layout: page
 title: Curriculum Vitae
-subtitle: Professional experience and achievements
+icon: file-alt
+url: /cv/
 ---
 
 **Software Engineer | Fullstack Development, AWS Solutions Architect**  
-Córdoba, Argentina | [aj.scheuer2@gmail.com](mailto:aj.scheuer2@gmail.com) | [LinkedIn](https://linkedin.com/in/andrewscheuer)
+<i class="fas fa-map-marker-alt"></i> Córdoba, Argentina | <i class="fas fa-envelope"></i> [aj.scheuer2@gmail.com](mailto:aj.scheuer2@gmail.com) | <i class="fab fa-linkedin"></i> [LinkedIn](https://linkedin.com/in/andrewscheuer)
 
 ---
 
-## Professional Experience
+## <i class="fas fa-briefcase"></i> Professional Experience
 
-### Allata
+### <i class="fas fa-building"></i> Allata
 **Associate Software Engineer** | March 2025 - Present
 - Developing fullstack cloud-based solutions using React, Node, and .NET technologies for short and long-term projects
 
-### Adam HRS
+### <i class="fas fa-hospital"></i> Adam HRS
 **Head of Technology** | September 2024 - March 2025
 - Established Adam HRS from the ground up, handling all aspects of the technology stack, business processes, and operational infrastructure
 - Defined and executed the technical strategy independently, designing a secure and scalable EMR platform for healthcare providers
 - Integrated advanced AI capabilities using AWS Bedrock for intelligent recommendations and workflow automation
 
-### Allata
+### <i class="fas fa-building"></i> Allata
 **Associate Software Engineer** | June 2023 - September 2024
 - Built cloud-based solutions in dynamic remote teams for short-term and long-term projects
 - Focused on fullstack solutions deployed to the cloud, working primarily with React, Node and .NET
 - Worked with SQL Server databases and SSIS and SSRS reporting according to client needs
 
-### 3XM Group (an Allata company)
+### <i class="fas fa-building"></i> 3XM Group (an Allata company)
 **Software Developer** | May 2021 - July 2023
 - Software Engineer in dynamic remote teams building cloud-based solutions
 - Specialized in fullstack solutions deployed to the cloud using React, Node and .NET
 - Experience with SQL Server databases and SSIS and SSRS reporting
 
-### Freelance/Contract
+### <i class="fas fa-language"></i> Freelance/Contract
 **Translator (Spanish-English)** | August 2014 - May 2021
 - Professional translator from Spanish into English across various fields including Marketing, Legal, and Medical
 
 ---
 
-## Education
+## <i class="fas fa-graduation-cap"></i> Education
 
 - **MA in Spanish Language, Literature and Culture** - Syracuse University (2015-2017)
 - **Full-Stack Web Development Certificate** - Acámica (2019-2020)
@@ -48,43 +49,43 @@ Córdoba, Argentina | [aj.scheuer2@gmail.com](mailto:aj.scheuer2@gmail.com) | [L
 
 ---
 
-## Technical Skills
+## <i class="fas fa-tools"></i> Technical Skills
 
-- **Languages**: React, Node.js, .NET, C#, JavaScript, TypeScript, SQL
-- **Cloud**: AWS Solutions Architect Associate, Azure
-- **Databases**: SQL Server, SSIS, SSRS
-- **AI/ML**: AWS Bedrock
-- **Tools**: Git, Visual Studio, VS Code
-
----
-
-## Certifications & Awards
-
-- **AWS Solutions Architect - Associate**
-- **AWS Partner: Accreditation (Technical)**
-- **Data Science Orientation**
-- **2017-2018 Fulbright U.S. Student Finalist**
-- **Dean's List** (Multiple semesters)
-- **Outstanding MA student in Spanish**
+- **Languages**: <i class="fab fa-react"></i> React, <i class="fab fa-node-js"></i> Node.js, <i class="fas fa-code"></i> .NET, C#, JavaScript, TypeScript, SQL
+- **Cloud**: <i class="fab fa-aws"></i> AWS Solutions Architect Associate, <i class="fab fa-microsoft"></i> Azure
+- **Databases**: <i class="fas fa-database"></i> SQL Server, SSIS, SSRS
+- **AI/ML**: <i class="fas fa-brain"></i> AWS Bedrock
+- **Tools**: <i class="fab fa-git-alt"></i> Git, Visual Studio, VS Code
 
 ---
 
-## Languages
+## <i class="fas fa-certificate"></i> Certifications & Awards
 
-- **English**: Native
-- **Spanish**: Native 
-- **Italian**: Limited Working
-- **German**: Limited Working
+- **<i class="fab fa-aws"></i> AWS Solutions Architect - Associate**
+- **<i class="fab fa-aws"></i> AWS Partner: Accreditation (Technical)**
+- **<i class="fas fa-chart-line"></i> Data Science Orientation**
+- **<i class="fas fa-award"></i> 2017-2018 Fulbright U.S. Student Finalist**
+- **<i class="fas fa-star"></i> Dean's List** (Multiple semesters)
+- **<i class="fas fa-trophy"></i> Outstanding MA student in Spanish**
 
 ---
 
-## Key Projects
+## <i class="fas fa-globe"></i> Languages
 
-### Adam HRS EMR Platform
+- **English**: <i class="fas fa-flag-usa"></i> Native
+- **Spanish**: <i class="fas fa-flag"></i> Native 
+- **Italian**: <i class="fas fa-flag"></i> Limited Working
+- **German**: <i class="fas fa-flag"></i> Limited Working
+
+---
+
+## <i class="fas fa-project-diagram"></i> Key Projects
+
+### <i class="fas fa-heart-pulse"></i> Adam HRS EMR Platform
 - **Description**: Secure and scalable Electronic Medical Records platform for healthcare providers
-- **Technologies**: .NET, React, AWS Bedrock, Cloud Infrastructure
+- **Technologies**: <i class="fas fa-code"></i> .NET, <i class="fab fa-react"></i> React, <i class="fas fa-brain"></i> AWS Bedrock, Cloud Infrastructure
 - **Role**: Head of Technology - Full technical strategy and implementation
 
 ---
 
-*[Download PDF version](link-to-your-cv-pdf)* 
+*<i class="fas fa-download"></i> [Download PDF version](link-to-your-cv-pdf)* 

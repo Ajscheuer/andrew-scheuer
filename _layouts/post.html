@@ -1,0 +1,53 @@
+---
+layout: default
+---
+
+<div class="post">
+  <h1 class="post-title">
+    <i class="fas fa-{{ page.icon | default: 'blog' }}"></i>
+    {{ page.title }}
+  </h1>
+  <span class="post-date">
+    <i class="fas fa-calendar-alt"></i>
+    {{ page.date | date_to_string }}
+    {% if page.author %}
+      &middot; <i class="fas fa-user"></i> {{ page.author }}
+    {% endif %}
+    {% if page.tags %}
+      &middot; 
+      {% for tag in page.tags %}
+        <span class="tag"><i class="fas fa-tag"></i> {{ tag }}</span>{% unless forloop.last %}, {% endunless %}
+      {% endfor %}
+    {% endif %}
+  </span>
+  
+  {{ content }}
+</div>
+
+<div class="related">
+  <h2><i class="fas fa-newspaper"></i> Related Posts</h2>
+  <ul class="related-posts">
+    {% for post in site.related_posts limit:3 %}
+      <li>
+        <h3>
+          <a href="{{ site.baseurl }}{{ post.url }}">
+            {{ post.title }}
+            <small>{{ post.date | date_to_string }}</small>
+          </a>
+        </h3>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
+
+<style>
+.tag {
+  display: inline-block;
+  padding: 2px 6px;
+  margin: 2px;
+  background-color: #f1f1f1;
+  border-radius: 3px;
+  font-size: 0.8em;
+  color: #666;
+}
+</style> 
