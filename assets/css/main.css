@@ -226,7 +226,7 @@ tbody tr:nth-child(odd) th {
  */
 
 .container {
-  max-width: 38rem;
+  max-width: 45.6rem;
   padding-left:  1rem;
   padding-right: 1rem;
   margin-left:  auto;
@@ -401,8 +401,8 @@ a.pagination-item:hover {
   position: fixed;
   top: 0;
   bottom: 0;
-  left: -14rem;
-  width: 14rem;
+  left: -16.8rem;
+  width: 16.8rem;
   visibility: hidden;
   overflow-y: auto;
   font-family: "PT Sans", Helvetica, Arial, sans-serif;
@@ -551,9 +551,9 @@ a.sidebar-nav-item:focus {
 #sidebar-checkbox:checked ~ .sidebar,
 #sidebar-checkbox:checked ~ .wrap,
 #sidebar-checkbox:checked ~ .sidebar-toggle {
-  -webkit-transform: translateX(14rem);
-      -ms-transform: translateX(14rem);
-          transform: translateX(14rem);
+  -webkit-transform: translateX(16.8rem);
+      -ms-transform: translateX(16.8rem);
+          transform: translateX(16.8rem);
 }
 
 /*
@@ -579,7 +579,7 @@ a.sidebar-nav-item:focus {
 
 .layout-reverse .sidebar {
   left: auto;
-  right: -14rem;
+  right: -16.8rem;
 }
 .layout-reverse .sidebar-toggle {
   left: auto;
@@ -589,9 +589,9 @@ a.sidebar-nav-item:focus {
 .layout-reverse #sidebar-checkbox:checked ~ .sidebar,
 .layout-reverse #sidebar-checkbox:checked ~ .wrap,
 .layout-reverse #sidebar-checkbox:checked ~ .sidebar-toggle {
-  -webkit-transform: translateX(-14rem);
-      -ms-transform: translateX(-14rem);
-          transform: translateX(-14rem);
+  -webkit-transform: translateX(-16.8rem);
+      -ms-transform: translateX(-16.8rem);
+          transform: translateX(-16.8rem);
 }
 
 /*
@@ -710,16 +710,16 @@ a.sidebar-nav-item:focus {
 
 @media (min-width: 48em) {
   .content {
-    max-width: 38rem;
-    margin-left: 20rem;
-    margin-right: 2rem;
+    max-width: 45.6rem;
+    margin-left: 24rem;
+    margin-right: 2.4rem;
   }
 }
 
 @media (min-width: 64em) {
   .content {
-    margin-left: 22rem;
-    margin-right: 4rem;
+    margin-left: 26.4rem;
+    margin-right: 4.8rem;
   }
 }
 
@@ -730,7 +730,7 @@ a.sidebar-nav-item:focus {
     top: 0;
     left: 0;
     bottom: 0;
-    width: 18rem;
+    width: 21.6rem;
     visibility: visible;
   }
   
