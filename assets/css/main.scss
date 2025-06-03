@@ -1,0 +1,158 @@
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
+
+/* Custom styles to match John Salvie's design */
+
+.author-profile-custom {
+  text-align: center;
+  margin: 2rem 0 3rem;
+  
+  .author-avatar-large {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+  }
+  
+  .author-tagline {
+    font-size: 1.1rem;
+    color: #888;
+    margin-bottom: 1rem;
+    font-weight: 400;
+  }
+  
+  .author-bio {
+    font-size: 1rem;
+    line-height: 1.6;
+    max-width: 600px;
+    margin: 0 auto;
+    color: #666;
+  }
+}
+
+.home-posts {
+  max-width: 800px;
+  margin: 0 auto;
+  
+  .post-preview {
+    margin-bottom: 2.5rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid #333;
+    
+    &:last-child {
+      border-bottom: none;
+    }
+    
+    .post-date {
+      font-size: 0.9rem;
+      color: #888;
+      font-weight: 400;
+      display: block;
+      margin-bottom: 0.5rem;
+    }
+    
+    h2 {
+      margin: 0 0 0.8rem 0;
+      font-size: 1.4rem;
+      line-height: 1.3;
+      
+      a {
+        color: inherit;
+        text-decoration: none;
+        
+        &:hover {
+          color: #0070f3;
+        }
+      }
+    }
+    
+    .post-excerpt {
+      font-size: 1rem;
+      line-height: 1.6;
+      color: #999;
+    }
+  }
+}
+
+.newsletter-signup {
+  max-width: 600px;
+  margin: 3rem auto 0;
+  text-align: left;
+  
+  .newsletter-form {
+    display: flex;
+    gap: 1rem;
+    margin: 1rem 0;
+    
+    input[type="email"] {
+      flex: 1;
+      padding: 0.8rem 1rem;
+      border: 1px solid #444;
+      background: #1a1a1a;
+      color: #fff;
+      border-radius: 4px;
+      font-size: 1rem;
+      
+      &::placeholder {
+        color: #888;
+      }
+      
+      &:focus {
+        outline: none;
+        border-color: #0070f3;
+      }
+    }
+    
+    button {
+      padding: 0.8rem 1.5rem;
+      background: #0070f3;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background 0.2s;
+      
+      &:hover {
+        background: #0051a5;
+      }
+    }
+  }
+  
+  .newsletter-note {
+    font-size: 0.85rem;
+    color: #888;
+    margin-top: 0.5rem;
+  }
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .author-profile-custom {
+    .author-avatar-large {
+      width: 100px;
+      height: 100px;
+    }
+    
+    h1 {
+      font-size: 2rem;
+    }
+  }
+  
+  .newsletter-signup .newsletter-form {
+    flex-direction: column;
+    
+    button {
+      align-self: flex-start;
+    }
+  }
+} 

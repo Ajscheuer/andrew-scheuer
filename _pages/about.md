@@ -1,37 +1,54 @@
 ---
 layout: single
-title: About Me
+title: About
 permalink: /about/
 author_profile: true
 ---
 
-# About Andrew Scheuer
+# About Me
 
-## Professional Background
-I'm a Native English Speaking Software Engineer with extensive experience working in remote teams developing with React, Node, and .NET. Currently serving as an Associate Software Engineer at Allata, I focus on building fullstack cloud-based solutions for both short and long-term projects.
+I'm a Software Engineer who loves building things that matter. Currently working at Allata, I specialize in fullstack development with React, Node.js, and .NET, focusing on cloud-based solutions that solve real problems.
 
-Previously, I founded and served as Head of Technology at Adam HRS, where I established the company from the ground up, handling all aspects of the technology stack, business processes, and operational infrastructure. I designed a secure and scalable EMR platform for healthcare providers and integrated advanced AI capabilities using AWS Bedrock for intelligent recommendations and workflow automation.
+## My Journey
 
-## Technical Expertise
+My path to software engineering has been unconventional. I started with a strong foundation in languages and literature, earning my MA from Syracuse University and serving as a Fulbright English Teaching Assistant in Argentina. But technology called to me, leading me to pursue full-stack development through Acámica.
+
+Recently, I had the opportunity to serve as Head of Technology at Adam HRS, where I designed and built a complete EMR platform from the ground up, integrating AI capabilities using AWS Bedrock for intelligent healthcare workflows.
+
+## What I Do
+
+**Currently**: Associate Software Engineer at Allata, building cloud solutions for diverse clients
+
+**Previously**: Head of Technology at Adam HRS, building healthcare EMR systems
+
+**Focus Areas**:
+- Fullstack development (React, Node.js, .NET)
+- AWS cloud architecture and solutions
+- Healthcare technology and EMR systems
+- AI integration with AWS Bedrock
+- Remote team leadership and collaboration
+
+## Background & Skills
+
 - **Frontend**: React, JavaScript, TypeScript
 - **Backend**: .NET, Node.js, C#
-- **Cloud Platforms**: AWS (Solutions Architect Associate), Azure
-- **Databases**: SQL Server, SSIS, SSRS reporting
-- **AI/ML**: AWS Bedrock integration
-- **Languages**: English (Native), Spanish (Native), Italian & German (Limited Working)
+- **Cloud**: AWS Solutions Architect Associate, Azure
+- **Databases**: SQL Server, SSIS, SSRS
+- **Languages**: English (Native), Spanish (Native), Italian & German (Limited)
 
-## Education & Certifications
-- **MA in Spanish Language, Literature and Culture** - Syracuse University (2015-2017)
-- **Full-Stack Web Development Certificate** - Acámica (2019-2020)
+## Education & Recognition
+
+- **MA in Spanish Language, Literature and Culture** - Syracuse University
+- **Full-Stack Web Development Certificate** - Acámica
 - **AWS Solutions Architect - Associate**
-- **AWS Partner: Accreditation (Technical)**
 - **2017-2018 Fulbright U.S. Student Finalist**
 
-## Background
-My journey combines a strong academic foundation in languages and literature with practical software engineering experience. I've worked across various domains including healthcare technology, business development, translation services, and education. This diverse background gives me a unique perspective on building user-centered solutions and working with international teams.
+## Life in Córdoba
 
-## Contact
-- **Email**: aj.scheuer2@gmail.com
-- **LinkedIn**: [linkedin.com/in/andrewscheuer](https://linkedin.com/in/andrewscheuer)
-- **Location**: Córdoba, Argentina
-- **Phone**: 3513191994 
+Based in Córdoba, Argentina, I work with remote teams across different time zones. This experience has taught me the value of clear communication, cultural sensitivity, and building strong relationships across distances.
+
+When I'm not coding, you'll find me exploring the intersection of technology and human connection, always learning something new.
+
+---
+
+*Want to connect? Check out my [contact page](/contact/) or find me on [LinkedIn](https://linkedin.com/in/andrewscheuer).* 

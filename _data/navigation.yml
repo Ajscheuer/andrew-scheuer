@@ -1,7 +1,9 @@
 main:
+  - title: "Articles"
+    url: /blog/
   - title: "About"
     url: /about/
   - title: "CV"
     url: /cv/
-  - title: "Blog"
-    url: /blog/ 
+  - title: "Contact"
+    url: /contact/ 
