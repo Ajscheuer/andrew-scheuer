@@ -2,7 +2,7 @@
 layout: page
 title: About Me
 icon: user
-url: /about/
+permalink: /about/
 ---
 
 I'm a Software Engineer who loves building things that matter. Currently working at Allata, I specialize in fullstack development with React, Node.js, and .NET, focusing on cloud-based solutions that solve real problems.
