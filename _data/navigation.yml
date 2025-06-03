@@ -1,9 +1,0 @@
-main:
-  - title: "Articles"
-    url: /blog/
-  - title: "About"
-    url: /about/
-  - title: "CV"
-    url: /cv/
-  - title: "Contact"
-    url: /contact/ 

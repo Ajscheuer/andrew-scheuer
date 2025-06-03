@@ -1,16 +1,13 @@
 ---
-layout: single
+layout: page
 title: Curriculum Vitae
-permalink: /cv/
-author_profile: true
-toc: true
-toc_label: "CV Contents"
-toc_icon: "file-alt"
+subtitle: Professional experience and achievements
 ---
 
-# Andrew Scheuer - CV
 **Software Engineer | Fullstack Development, AWS Solutions Architect**  
-Córdoba, Argentina | aj.scheuer2@gmail.com | [LinkedIn](https://linkedin.com/in/andrewscheuer)
+Córdoba, Argentina | [aj.scheuer2@gmail.com](mailto:aj.scheuer2@gmail.com) | [LinkedIn](https://linkedin.com/in/andrewscheuer)
+
+---
 
 ## Professional Experience
 
@@ -40,20 +37,29 @@ Córdoba, Argentina | aj.scheuer2@gmail.com | [LinkedIn](https://linkedin.com/in
 **Translator (Spanish-English)** | August 2014 - May 2021
 - Professional translator from Spanish into English across various fields including Marketing, Legal, and Medical
 
+---
+
 ## Education
+
 - **MA in Spanish Language, Literature and Culture** - Syracuse University (2015-2017)
 - **Full-Stack Web Development Certificate** - Acámica (2019-2020)
 - **Bachelor of Arts (B.A.), Spanish Language and Literature** - SUNY Oswego (2009-2014)
 - **Study Abroad, Hispanic Studies** - University at Albany, SUNY (2011)
 
+---
+
 ## Technical Skills
+
 - **Languages**: React, Node.js, .NET, C#, JavaScript, TypeScript, SQL
-- **Cloud**: AWS (Solutions Architect Associate), Azure
+- **Cloud**: AWS Solutions Architect Associate, Azure
 - **Databases**: SQL Server, SSIS, SSRS
 - **AI/ML**: AWS Bedrock
 - **Tools**: Git, Visual Studio, VS Code
 
+---
+
 ## Certifications & Awards
+
 - **AWS Solutions Architect - Associate**
 - **AWS Partner: Accreditation (Technical)**
 - **Data Science Orientation**
@@ -61,17 +67,24 @@ Córdoba, Argentina | aj.scheuer2@gmail.com | [LinkedIn](https://linkedin.com/in
 - **Dean's List** (Multiple semesters)
 - **Outstanding MA student in Spanish**
 
+---
+
 ## Languages
+
 - **English**: Native
 - **Spanish**: Native 
 - **Italian**: Limited Working
 - **German**: Limited Working
 
+---
+
 ## Key Projects
+
 ### Adam HRS EMR Platform
 - **Description**: Secure and scalable Electronic Medical Records platform for healthcare providers
 - **Technologies**: .NET, React, AWS Bedrock, Cloud Infrastructure
 - **Role**: Head of Technology - Full technical strategy and implementation
 
 ---
+
 *[Download PDF version](link-to-your-cv-pdf)* 

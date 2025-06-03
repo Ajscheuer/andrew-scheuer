@@ -1,19 +1,16 @@
 ---
-layout: single
-title: About
-permalink: /about/
-author_profile: true
+layout: page
+title: About me
+subtitle: My journey from academia to software engineering
 ---
-
-# About Me
 
 I'm a Software Engineer who loves building things that matter. Currently working at Allata, I specialize in fullstack development with React, Node.js, and .NET, focusing on cloud-based solutions that solve real problems.
 
 ## My Journey
 
-My path to software engineering has been unconventional. I started with a strong foundation in languages and literature, earning my MA from Syracuse University and serving as a Fulbright English Teaching Assistant in Argentina. But technology called to me, leading me to pursue full-stack development through Acámica.
+My path to software engineering has been unconventional. I started with a strong foundation in languages and literature, earning my MA from Syracuse University and serving as a **Fulbright English Teaching Assistant** in Argentina. But technology called to me, leading me to pursue full-stack development through Acámica.
 
-Recently, I had the opportunity to serve as Head of Technology at Adam HRS, where I designed and built a complete EMR platform from the ground up, integrating AI capabilities using AWS Bedrock for intelligent healthcare workflows.
+Recently, I had the opportunity to serve as **Head of Technology at Adam HRS**, where I designed and built a complete EMR platform from the ground up, integrating AI capabilities using AWS Bedrock for intelligent healthcare workflows.
 
 ## What I Do
 
@@ -28,7 +25,7 @@ Recently, I had the opportunity to serve as Head of Technology at Adam HRS, wher
 - AI integration with AWS Bedrock
 - Remote team leadership and collaboration
 
-## Background & Skills
+## Technical Skills
 
 - **Frontend**: React, JavaScript, TypeScript
 - **Backend**: .NET, Node.js, C#
@@ -51,4 +48,4 @@ When I'm not coding, you'll find me exploring the intersection of technology and
 
 ---
 
-*Want to connect? Check out my [contact page](/contact/) or find me on [LinkedIn](https://linkedin.com/in/andrewscheuer).* 
+**Want to connect?** Feel free to reach out via [email](mailto:aj.scheuer2@gmail.com) or find me on [LinkedIn](https://linkedin.com/in/andrewscheuer). 

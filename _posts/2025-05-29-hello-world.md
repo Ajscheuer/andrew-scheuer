@@ -1,20 +1,19 @@
 ---
 layout: post
 title: "Hello World - Starting My Developer Blog"
+subtitle: "Welcome to my corner of the web"
 date: 2025-05-29
-categories: [blogging, introduction]
-tags: [first-post, career, remote-work]
+tags: [first-post, career, remote-work, blogging]
+comments: true
 ---
-
-# Welcome to My Blog!
 
 After years of building software solutions across different domains - from healthcare EMR systems to cloud-based applications - I've decided to start sharing my experiences and insights through this blog.
 
 ## My Journey So Far
 
-My path into software engineering has been quite unique. I started with a strong foundation in languages and literature, earning my MA from Syracuse University and even serving as a Fulbright English Teaching Assistant in Argentina. But my passion for technology eventually led me to pursue full-stack web development through Acámica, and I haven't looked back since.
+My path into software engineering has been quite unique. I started with a strong foundation in languages and literature, earning my MA from Syracuse University and even serving as a **Fulbright English Teaching Assistant** in Argentina. But my passion for technology eventually led me to pursue full-stack web development through Acámica, and I haven't looked back since.
 
-Currently, I'm working as an Associate Software Engineer at Allata, where I build cloud-based solutions using React, Node.js, and .NET. Recently, I had the opportunity to serve as Head of Technology at Adam HRS, where I designed and built a complete EMR platform from the ground up, integrating AI capabilities using AWS Bedrock.
+Currently, I'm working as an Associate Software Engineer at **Allata**, where I build cloud-based solutions using React, Node.js, and .NET. Recently, I had the opportunity to serve as Head of Technology at **Adam HRS**, where I designed and built a complete EMR platform from the ground up, integrating AI capabilities using AWS Bedrock.
 
 ## What to Expect on This Blog
 
@@ -35,7 +34,7 @@ Whether you're a fellow .NET developer, someone interested in cloud architecture
 
 ## Let's Connect
 
-I'm always interested in connecting with other developers and learning from different perspectives. Feel free to reach out on [LinkedIn](https://linkedin.com/in/andrewscheuer) or check out my work experience in my [CV section](/cv/).
+I'm always interested in connecting with other developers and learning from different perspectives. Feel free to reach out via [email](mailto:aj.scheuer2@gmail.com) or connect with me on [LinkedIn](https://linkedin.com/in/andrewscheuer).
 
 Thanks for stopping by, and welcome to my corner of the web!
 

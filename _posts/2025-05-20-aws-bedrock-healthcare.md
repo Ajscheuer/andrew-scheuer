@@ -1,13 +1,13 @@
 ---
-layout: single
+layout: post
 title: "Integrating AWS Bedrock into Healthcare EMR Systems"
+subtitle: "Lessons learned building AI-powered healthcare workflows"
 date: 2025-05-20
-categories: [aws, healthcare, ai]
-tags: [aws-bedrock, emr, healthcare-tech, ai-integration]
-author_profile: true
+tags: [aws-bedrock, emr, healthcare-tech, ai-integration, aws]
+comments: true
 ---
 
-During my time as Head of Technology at Adam HRS, one of the most challenging and rewarding projects was integrating AWS Bedrock into our EMR platform. Here's what I learned about bringing AI capabilities to healthcare software.
+During my time as Head of Technology at **Adam HRS**, one of the most challenging and rewarding projects was integrating AWS Bedrock into our EMR platform. Here's what I learned about bringing AI capabilities to healthcare software.
 
 ## The Challenge
 
@@ -66,4 +66,4 @@ AI in healthcare is just getting started. The key is building systems that enhan
 
 ---
 
-*Have you worked with AI in healthcare? I'd love to hear about your experiences. Feel free to [reach out](/contact/) or connect with me on [LinkedIn](https://linkedin.com/in/andrewscheuer).* 
+*Have you worked with AI in healthcare? I'd love to hear about your experiences. Feel free to reach out via [email](mailto:aj.scheuer2@gmail.com) or connect with me on [LinkedIn](https://linkedin.com/in/andrewscheuer).* 
